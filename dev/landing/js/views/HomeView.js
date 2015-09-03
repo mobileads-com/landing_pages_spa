@@ -20,11 +20,12 @@ app.views.HomeView = (function () {
                 event.preventDefault();
 
                 $.ajax({
-                    url: $("#signup-form").attr("action"),
-                    type: $("#signup-form").attr("method"),
+                    url: '/register.htm',
+                    type: 'post',
                     dataType: 'json',
                     data : {'agency':true, 'email':$('[name=email]').val(), 'industry':'', 'name':$('[name=name]').val(), 'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3},
-                }).success(function() {
+                }).success(function(jsonObject) {
+                    console.log(jsonObject);
                     console.log('done');
 
 

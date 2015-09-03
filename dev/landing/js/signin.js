@@ -15,13 +15,25 @@ $(function() {
         },
 
         submitHandler : function () {
-            $.post('login.htm', 
-                   {'agency':true, 'email':$('[name=email]').val(), 'industry':'', 'name':$('[name=name]').val(), 'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':$('[name=timezone]').val(), 'subscriptionId':3}, function () {
+            
+            var formMsg = $('#signin-form .form-msg');
+            
+            $.post('/login.htm', 
+                   {'email':$('[name=email]').val(), 'password':$('[name=password]').val()}, function () {
             }).done(function (jsonObject) {
-                console.log(jsonObject);
-                console.log('done');
-                formMsg.addClass('text-success').text('You have successfully logged in!');
-                formMsg.show();
+                jsonObject = JSON.parse(jsonObject);
+                console.log(jsonObject.status);
+                
+                if (jsonObject.status) {
+                    formMsg.addClass('text-success').text('You have successfully logged in!');
+                    formMsg.show();
+                    
+                    setTimeout( function () {
+                        window.location = '/campaigns'
+                    }, 3000);
+                }
+                
+                
 
             }).fail(function (jsonObject) {
                 console.log(jsonObject);

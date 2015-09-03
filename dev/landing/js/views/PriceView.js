@@ -70,7 +70,7 @@ app.views.PriceView = (function () {
                         password: { required : "Please provide a password." }
                     },
                     submitHandler: function(){
-                        $.post('register.htm', { 'agency' : true, 'name' : $('[name=name]').val(), 'email' : $('[name=email]').val(), 'industry' : '',  'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3}, function(data, textStatus, xhr) {
+                        $.post('/register.htm', { 'agency' : true, 'name' : $('[name=name]').val(), 'email' : $('[name=email]').val(), 'industry' : '',  'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3}, function(data, textStatus, xhr) {
                      		/*optional stuff to do after success */
                         });
                     },
