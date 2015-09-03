@@ -1,0 +1,638 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	#first-section{
+		/*height: 588px;*/
+	}
+
+	#first-section #section-quote-container .head-quote{
+		font-weight: bold;
+		/*font-size: 30.97px;*/
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	#first-section #section-quote-container .sub-quote{
+		/*font-size: 25.91px;*/
+		margin-top: -14px;
+		margin-left: 7px;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	#second-section{
+		    /*height: 600px;*/
+	}
+
+	#second-section #section-quote-container h1{
+		color: #e44c3b;
+		text-align: center;
+		margin-top: 20px;
+	}
+	#second-section #section-quote-container .quote-subtitle{
+		font-family: MuseoSans700;
+		/*font-size: 18px;*/
+		color: #696969;
+		text-align: center;
+	}
+
+	#second-section #section-quote-container .quote-text{
+		font-family: MuseoSans300;
+		/*font-size: 18px;*/
+		color: #696969;
+		text-align: center;
+	}
+
+	#fourth-section, #eight-section{
+		background: url(../images/banner.png) no-repeat center;
+		padding-bottom: 15px;
+	}
+
+	#fourth-section, #eight-section{
+		/*height: 160px;*/
+	}
+
+	#fourth-section h1, #eight-section h1{
+		text-align: center;
+		font-size: 23px;
+	}
+
+	#fourth-section button, #eight-section button{
+		font-size: 11px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#fifth-section{
+		/*height: 850px;*/
+	}
+
+	#fifth-section #section-quote-container{
+		text-align: center;
+	}
+
+	/*#fifth-section .section-subheader{
+		margin-top: 0px;
+		font-family: MuseoSans700;
+		font-size: 18.09px;
+	}*/
+
+	#fifth-section #section-quote-container h4{
+		margin-top: 40px;
+		font-family: MuseoSans900;
+		font-size: 18.09px;
+	}
+
+	#fifth-section #section-quote-container p{
+		font-family: MuseoSans300;
+		font-size: 18px;
+		color: #696969;
+	}
+
+	#sixth-section .section-header{
+		margin-top: -5px;
+	}
+
+	#sixth-section .section-subheader{
+		/*font-size: 24.97px;*/
+	}
+
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+		text-align: center
+	}
+
+	#sixth-section img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sixth-section li{
+		padding-bottom: 18px;
+	}
+
+	#sixth-section li span{
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	#sixth-section .right{
+		margin-top: -20px;
+	}
+
+	#sixth-section .bottom-text{
+		font-size: 20px;
+	}
+
+	#seventh-section{
+		/*height: 340px;*/
+	}
+
+	#seventh-section .section-header{
+		margin-top: -5px;
+	}
+
+	#seventh-section .main-image{
+		margin-top: -30px;
+	}
+
+	#seventh-section .arrow{
+		margin-top: 55px;
+		width: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+/*@media only screen and (min-width : 480px) {*/
+@media only screen and (min-width : 509px) and (max-width: 767px) {
+	#first-section{
+		/*height: 592px;*/
+	}
+
+	#second-section{
+		    /*height: 680px;*/
+	}
+
+	#first-section #section-quote-container h1{
+		font-family: MuseoSans900;
+		color: #e44c3b;
+		font-weight: bold;
+		font-size: 45.97px;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	#first-section #section-quote-container p{
+		font-family: MuseoSans100;
+		font-size: 30.91px;
+		margin-top: -14px;
+		margin-left: 7px;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	#fourth-section{
+		/*height: 170px;*/
+	}
+
+	#fifth-section {
+	    /*height: 750px;*/
+	}
+
+	#seventh-section{
+		/*height: 500px;*/
+	}
+
+	#seventh-section .arrow {
+	    margin-top: 180px; /*125px;*/
+	    width: 30px;
+	}
+
+	#eight-section{
+		/*height: 180px;*/
+	}
+
+	#footer-section{
+		height: 406px;
+	}
+}
+
+@media only screen  and (max-width: 508px) and(min-width: 321px){
+	#seventh-section{
+		height: 350px;
+	}
+
+	#seventh-section .arrow {
+	    /*margin-top: 55px;*/
+	    width: 30px;
+	}
+
+	#sixth-section .section-subheader{
+		font-size: 18.97px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px){
+	#first-section{
+		/*height: 595px;*/
+	}
+
+	#first-section #section-quote-container h1{
+		font-family: MuseoSans900;
+		color: #e44c3b;
+		font-weight: bold;
+		font-size: 45.97px;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	#first-section #section-quote-container p{
+		font-family: MuseoSans100;
+		font-size: 30.91px;
+		margin-top: -14px;
+		margin-left: 7px;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	#second-section {
+	    /*height: 780px;*/
+	}
+
+	#seventh-section .arrow {
+	    margin-top: 25px;
+	    width: 30px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px){
+	#first-section{
+		/*height: 472px;*/
+	}
+
+	#first-section #section-quote-container .head-quote{
+		font-weight: bold;
+		text-align: left;
+		margin-top: 150px;
+	}
+
+	#first-section #section-quote-container .sub-quote{
+		margin-top: -14px;
+		line-height: 27px;
+		text-align: left;
+		margin-left: 0px;
+	}
+
+	#first-section #section-contact-container{
+		margin-top: 50px;
+	}
+
+	#second-section{
+		/*height: 480px;*/
+	}
+
+	#second-section div:nth-child(1), #second-section div:nth-child(2){
+		margin-top: 40px;
+	}
+
+	#second-section #section-quote-container h1{
+		margin-top: 70px;
+	}
+
+	#second-section #section-quote-container h1, #second-section #section-quote-container .quote-subtitle, #second-section #section-quote-container .quote-text{
+		text-align: left;
+	}
+
+	#fifth-section {
+	    /*height: 550px;*/
+	}
+
+	#fifth-section #section-quote-container{
+		text-align: left;
+	}
+
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section .right{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section li{
+		padding-bottom: 18px;
+	}
+
+	#sixth-section .right{
+		float: left !important;
+	}
+
+	#sixth-section .right img{
+		margin-left: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .right span{
+		margin-right: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .left img{
+		float:right;
+		clear:right;
+		margin-right: -30px;
+	}
+
+	#sixth-section .left span{
+		margin-right: -15px;
+		float:right;
+		clear:right;
+	}
+	#sixth-section li span{
+		padding-bottom: 10px;
+	}
+
+	.bottom-text{
+		font-family: MuseoSans300;
+		font-size: 30px;
+	   	/*margin-top: -150px;*/
+    		/*padding-bottom: 20px;*/
+	}
+
+
+	#seventh-section{
+		/*height: 500px;*/
+	}
+
+	#seventh-section .arrow {
+	    /*margin-top: 55px;*/
+	    width: 30px;
+	}
+
+	#eight-section, #fourth-section{
+		/*height: 180px;*/
+		background: url(../images/section4-bg.png) no-repeat;
+		padding-bottom: 20px;
+	}
+
+	#fourth-section  button, #eight-section button{
+		font-size: 18.55px;
+	}
+
+	#footer-section{
+		/*height: 406px;*/
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	#first-section {
+		/*height: 472px;*/
+	}
+
+	#first-section #section-quote-container{
+		margin-top: 96px;
+	}
+
+	#first-section #section-quote-container .head-quote{
+		text-align: left;
+		margin-left: -50px;
+	}
+
+	#first-section #section-quote-container .sub-quote{
+		font-size: 32.91px;
+		margin-top: -14px;
+		margin-left: -50px;
+		line-height: 27px;
+		text-align: left;
+	}
+
+	#first-section #section-contact-container{
+		margin-top: 50px;
+	}
+
+	#second-section {
+	    /*height: 520px;*/
+	}
+
+	#second-section div:nth-child(1), #second-section div:nth-child(2){
+		margin-top: 40px;
+	}
+
+	#second-section #section-quote-container h1{
+		margin-top: 70px;
+	}
+
+	#second-section #section-quote-container h1, #second-section #section-quote-container .quote-subtitle, #second-section #section-quote-container .quote-text{
+		text-align: left;
+	}
+
+	#fourth-section, #eight-section{
+		background: url(../images/customad/section4-bg.png) no-repeat;
+		padding-bottom: 20px;
+	}
+
+	#fourth-section  h1, #eight-section h1{
+		font-size: 29.54px;
+	}
+
+	#fourth-section  button, #eight-section button{
+		font-size: 18.55px;
+	}
+
+	#fifth-section {
+    		/*height: 520px;*/
+	}
+
+	#fifth-section #section-quote-container{
+		text-align: left;
+	}
+
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section .right{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section li{
+		padding-bottom: 18px;
+	}
+
+	#sixth-section .right{
+		float: left !important;
+	}
+
+	#sixth-section .right img{
+		margin-left: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .right span{
+		margin-right: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .left img{
+		float:right;
+		clear:right;
+		margin-right: -30px;
+	}
+
+	#sixth-section .left span{
+		margin-right: -15px;
+		float:right;
+		clear:right;
+	}
+	#sixth-section li span{
+		padding-bottom: 10px;
+	}
+
+	.bottom-text{
+		font-family: MuseoSans300;
+		font-size: 30px;
+	   	/*margin-top: -150px;*/
+    		/*padding-bottom: 20px;*/
+	}
+
+	.container-fluid{
+		/*position:fixed;*/
+		top:0px;
+		left:0px;
+		/*width:100%;*/
+		/*height:100%;*/
+	}
+
+	#seventh-section{
+		position:relative;
+		top:50%;
+		/*margin:auto;*/
+		/*width:140px;*/
+		/*height:40px;*/
+		background:#b4da55;
+	}	
+
+	#seventh-section .arrow {
+	    margin-top: 100px;
+	}
+}
+
+
+
+html, body {
+	font-family: MuseoSans100;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*.text-red {
+	color: #e44c3b;
+}
+
+.btn-custom {
+	font-size: 17.19px;
+	font-family: MuseoSans700;
+	color: white;
+	background-color: #e44c3b;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px 0.00px rgba(2, 2, 2, 0.71);
+}
+
+.btn-custom:hover {
+	background-color: #bf3a2b;
+	color: white;
+}
+
+.text-strong{
+	font-weight: bold;
+}*/
+
+#first-section {
+	background-color: #f5f3da !important;
+	background: url(../images/customad/bg-section-1.png) no-repeat;
+	margin-top: 50px;
+}
+
+#first-section .img-responsive{
+	margin-top: 50px;
+}
+
+
+#second-section{
+	background: url(../images/customad/bg-section-2.png) no-repeat;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+#third-section{
+	background: url(../images/customad/bg-section-3.png) no-repeat;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	/*height: 545px;*/
+}
+
+#third-section .image-label{
+	font-size: 24px;
+	font-family: AvenirLTStd-Heavy;
+}
+
+
+#fifth-section{
+	background: url(../images/customad/bg-section-5.png) no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#sixth-section{
+	/*background: url(../images/bg-section-6.png) no-repeat;*/
+	background-color: #ffffff;
+	background-size: cover;
+/*	height: 928.79px;
+	max-height: 928.79px;*/
+	/*padding-top: 40px;*/
+	padding-bottom: 40px;
+}
+
+.bottom-text{
+	padding-bottom: 20px;
+}
+
+#seventh-section{
+	background: url(../images/customad/bg-section-6.png) no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+/*	display: flex;
+	 flex-direction: row;*/
+}
+
+/*#seventh-section [class^="col-"], #seventh-section > [class*=" col-"]{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+*/
+.arrow-left{
+	float: right
+}
+
+.image-handle-container{
+	display: table-cell;
+      vertical-align: middle;
+}
+
+
+#fourth-section, #eight-section {
+	background-color: #181818;
+	/*background-size: cover;*/
+	padding-top: 5px;
+	/*padding-bottom: 20px;*/
+}
+
+#fourth-section  h1, #eight-section h1{
+	font-family: MuseoSans700;
+	/*font-size: 29.54px;*/
+	padding-bottom: 5px;
+}
+
+#fourth-section  button, #eight-section button{
+	font-family: AvenirLTStd-Heavy;
+	/*font-size: 18.55px;*/
+}

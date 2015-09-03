@@ -1,0 +1,166 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="css/commons.css" rel="stylesheet">
+</head>
+<body>
+	
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img id="navbar-logo" src="images/navbar-logo.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Ad Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#price">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#saas">SaaS in A Box</a>
+                    </li>
+                    <li>
+                        <a href="#custom_ad">Custom Ad</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="hidden-md hidden-lg">
+                        <a data-toggle="modal" data-target="#signinModal" style="color: #e44c3b !important" >Sign In</a>
+                    </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                    <li><a data-toggle="modal" data-target="#signinModal" style="cursor: pointer;">Sign In</a></li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <!-- Content -->
+	<div class="content"></div>
+    
+    <!-- Footer -->
+    <div class="container-fluid">
+		<section id="footer-sections" class="row">
+            <div class="container">
+                
+                <ul id="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Ad Gallery</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">SaaS in a Box</a></li>
+                    <li><a href="#">Custom Ad</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <ul id="footer-miscs">
+                    <li class="footer-logo"><a href="#"><img src="images/footer-logo.png" class="footer-logo" alt="Logo"></a></li>
+                    <li class="contact-title"><a class="h4" href="#">Get In Touch With Us</a></li>
+                    <li class="contact"><a href="mailto:contact@mobileads.com"><i class="fa fa-envelope text-red"></i> contact@mobileads.com</a></li>
+                    <li class="social-title"><a class="h4" href="#">Get Social</a></li>
+                    <li class="social"><a href="#"><img src="images/Facebook.png"></a></li>
+                    <li class="social"><a href="#"><img src="images/Twitter.png"></a></li>
+                    <li class="social"><a href="#"><img src="images/Linkedin.png"></a></li>
+                    <li class="site"><a href="#">&copy; MobileAds.com 2014 - 2015</a></li>
+                    <li class="policy"><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+		</section>
+	</div>
+    
+    <div class="container" id="signin-modal">
+        <!-- Modal -->
+        <div class="modal fade" id="signinModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <center>
+                            <img src="images/footer-logo.png" alt="">
+                        </center>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-red">Sign In Account</h3>
+                        <p class="text-center form-msg"></p>
+
+                        <form id="signin-form" action="login.htm" method="post">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <a href="">Forgot your password?</a>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-custom">SIGN IN</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!--temporary using internet version because rma jquery version too low-->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/handlebars.js"></script>
+    <script src="/assets/jquery.validate.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    <!-- Views -->
+    <script src="js/views/HomeView.js"></script>
+    <script src="js/views/PriceView.js"></script>
+    <script src="js/views/GalleryView.js"></script>
+    <script src="js/views/CustomadView.js"></script>
+    <script src="js/views/SaasView.js"></script>
+    <script src="js/views/TermsView.js"></script>
+    <script src="js/views/PrivacyView.js"></script>
+    
+    <!-- Adapters -->
+	<script src="js/adapters/user-memory.js"></script>
+    
+	<script src="js/template-loader.js"></script>
+    
+    <script src="js/signin.js"></script>	
+    <script src="js/bootstrap-select.min.js"></script>
+	<script src="js/timezones.full.min.js"></script>
+    
+</body>
+</html>

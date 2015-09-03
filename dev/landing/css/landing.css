@@ -1,0 +1,749 @@
+@media only screen and (max-width:1196px) and (min-width: 992px) {
+
+    #contact {
+        width: 25%;
+        margin-left: -0px;
+    }
+
+    #first-section #quote {
+        margin-left: 40.333333%;
+    }
+
+    ul.navbar-nav li {
+        margin-left: -25px;
+    }
+
+    #contact .panel span {
+        font-size: 10.42px;
+    }
+
+    #contact .panel {
+        height: 364px;
+    }
+
+    #contact .panel #free {
+        font-size: 11.42px;
+        margin-top: -13px;
+    }
+
+}
+
+@media only screen and (max-width:1181px) and (min-width: 992px) {
+
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 360px;
+    }
+
+    #seventh-section #partners {
+        margin-left: 86px;
+    }
+
+    #seventh-section .use {
+        width: 70%;
+        margin-left: 1;
+        margin: 0px auto;
+    }
+
+}
+
+@media only screen and (max-width:1172px) and (min-width: 992px) {
+
+    #seventh-section .use.small {
+        width: 70%;
+    }
+
+    #first-section #quote {
+        margin-top: 94px;
+        margin-left: 39.7%;
+        width: 33.333333%;
+    }
+
+    #second-section {
+        margin-top: -6px;
+    }
+
+}
+
+@media only screen and (max-width:1142px) and (min-width: 992px) {
+    #first-section #quote {
+        margin-left: 40.7%;
+    }
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* XtraLarge Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+
+}
+
+/*MD AND LG*/
+/*@media only screen and (max-width : 1500px) and (min-width: 768px) {*/
+/*@media only screen and (max-width : 1500px) and (min-width: 992px) {*/
+@media only screen and (max-width : 2100px) and (min-width: 992px) {
+    #first-section {
+        background: url(../images/first-section-bg.png) no-repeat;
+/*        max-height: 586px;
+        height: 586px;
+*/    }
+
+    #first-section #quote {
+        height: 148px;
+        margin-top: 77px;
+        margin-left: 39.7%;
+        width: 31.333333%;
+
+    }
+
+    #first-section #quote p {
+        margin-top: -14px;
+        margin-left: 7px;
+        line-height: 27px;
+    }
+
+    #first-section img {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #first-section [type="checkbox"] {
+        vertical-align: middle;
+        margin-top: -1px;
+    }
+
+    #contact p.first {
+        margin-top: 69px;
+        margin-left: 9px;
+    }
+
+    #contact p.second {
+        margin-left: 9px
+    }
+
+    #contact .panel h3 {
+        margin-top: 17px;
+        margin-right: -9px;
+    }
+
+    #contact .panel {
+        margin-top: 6px;
+        margin-left: 8px;
+        /*height: 356px;*/
+    }
+
+    #contact .panel #free {
+        font-size: 12.42px;
+    }
+
+    #contact {
+        width: 26%;
+        float: left;
+        text-align: left;
+    }
+
+    #contact input {
+        height: 36px;
+    }
+
+    #second-section {
+        max-height: 1526px;
+        background: url(../images/section2-bg.png);
+    }
+
+    #second-section #main-text {
+        margin-top: 53px;
+        margin-left: 55px;
+    }
+
+    #second-section #main-text .section-title span {
+        margin: 10px;
+    }
+
+    #second-section #main-text .first {
+        margin-top: -8px;
+        margin-right: 10px;
+    }
+
+    #second-section #easy-to-use {
+        margin-top: 44px;
+    }
+
+    #second-section .img1 {
+        margin-left: 40px;
+        margin-top: 2px;
+    }
+
+    #second-section #oversee {
+        margin-top: 49px;
+    }
+
+    #second-section .img2 {
+        margin-left: -26px;
+    }
+
+    #second-section #cross-device {
+        margin-top: 72px;
+    }
+
+    #second-section .img3 {
+        margin-left: 19px;
+    }
+
+    #second-section #detailed-tracking {
+        margin-top: -6px;
+    }
+
+    #second-section .img4 {
+        margin-left: -46px;
+
+    }
+
+    #second-section .text1 {
+        margin-top: 87px;
+        margin-left: 50px;
+    }
+
+    #second-section .text1 h2 {
+        margin-left: -1px;
+    }
+
+    #second-section .text1 p {
+        margin-left: 1px;
+    }
+
+    #second-section .text2 {
+        margin-top: 100px;
+        margin-left: 101px;
+    }
+
+    #second-section .text2 p {
+        margin-top: -3px;
+    }
+
+    #second-section .text3 {
+        margin-left: 136px;
+        margin-top: 74px;
+    }
+
+    #second-section .text3 p {
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+
+    #second-section .first-col {
+        margin-left: -43%;
+        margin-top: 73px;
+    }
+
+    #third-section {
+        max-height: 855px;
+        height: 855px;
+    }
+
+    #third-section .main-quote {
+        margin-top: 64px;
+        margin-left: 40px;
+    }
+
+    #third-section .main-quote .first {
+        margin-top: 13px;
+        margin-left: 23px;
+    }
+
+    #third-section .main-quote .second {
+        margin-top: -18px;
+        margin-left: 19px;
+    }
+
+    #third-section .main img {
+        margin-left: 40px;
+        margin-top: 53px;
+    }
+
+    #fourth-section, #eighth-section {
+        max-height: 134px;
+        height: 134px;
+    }
+
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 410px;
+        margin-top: 26px;
+    }
+
+    #fourth-section button, #eighth-section button {
+        width: 204px;
+        height: 41px;
+        margin-top: 5px;
+        margin-left: 252px;
+    }
+
+    #fifth-section {
+        max-height: 737px;
+        height: 737px;
+        margin-top: -2px;
+    }
+
+    #fifth-section .main-quote {
+        margin-top: 54px;
+        margin-left: 40px;
+    }
+
+    #fifth-section .main-quote .first {
+        margin-top: 13px;
+        margin-left: 23px;
+    }
+
+    #fifth-section .main-quote .second {
+        margin-top: -10px;
+        margin-left: 19px;
+    }
+
+    #fifth-section .images {
+        margin-top: 55px;
+    }
+
+    #fifth-section .images #button1 {
+        margin-left: 99px;
+    }
+
+    #fifth-section .images #button2 {
+        margin-left: 91px;
+    }
+
+    #fifth-section .images #button3 {
+        margin-left: 73px;
+    }
+
+    #fifth-section .lower-quote {
+        margin-top: 463px;
+        margin-left: 72px;
+    }
+
+    #fifth-section .lower-quote h2 {
+        font-size: 27.58px;
+        font-family: MuseoSans700;
+    }
+
+    #fifth-section .lower-quote .first {
+        margin-top: 10px;
+        margin-left: -23px; 
+    }
+
+    #sixth-section {
+        max-height: 411px;
+        height: 411px;
+    }
+
+
+    #seventh-section .main-quote {
+        margin-top: 71px;
+        margin-left: 38px;
+    }
+
+    #seventh-section .main-quote .first {
+        margin-top: 14px;
+        margin-left: 22px;
+    }
+
+    /* Block - Brand */
+    #seventh-section .use{
+        text-align:center;
+        margin:0 auto;
+        width:60%;
+    }
+
+    #seventh-section .use.small{
+        width:62%;
+    }
+
+    #seventh-section .use.small2{
+        width:30%;
+    }
+
+    #seventh-section .use a{
+        width: auto;
+        height: 133px;
+        overflow: hidden;
+        display: block;
+        float: left;
+        transition:all 0.3s;
+    }
+
+    #seventh-section .use.small a img{
+        margin-right:15px;
+    }
+
+    #seventh-section .use a img{
+        opacity:0;
+    }
+
+    #seventh-section .use.small a img{
+        margin-right:15px;
+    }
+    #seventh-section .use a img{
+        opacity:0;
+    }
+    #seventh-section a.brand1 {
+        background: url('../images/agency/brand_01b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand2 {
+        background: url('../images/agency/brand_02c.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand3 {
+        background: url('../images/agency/brand_03b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand4 {
+        background: url('../images/agency/brand_04b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand5 {
+        background: url('../images/agency/brand_05b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand6 {
+        background: url('../images/agency/brand_06b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand7 {
+        background: url('../images/agency/brand_07.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand8 {
+        background: url('../images/agency/brand_08b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand9 {
+        background: url('../images/agency/brand_09b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand10 {
+        background: url('../images/agency/brand_10b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand11 {
+        background: url('../images/agency/brand_11b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand12 {
+        background: url('../images/agency/brand_12.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand13 {
+        background: url('../images/agency/brand_13.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand14 {
+        background: url('../images/agency/brand_14.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand15 {
+        background: url('../images/agency/brand_15.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand16 {
+        background: url('../images/agency/brand_16.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand17 {
+        background: url('../images/agency/brand_17b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand18 {
+        background: url('../images/agency/brand_18b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand19 {
+        background: url('../images/agency/brand_19b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand20 {
+        background: url('../images/agency/brand_20b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand21 {
+        background: url('../images/agency/brand_21b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand22 {
+        background: url('../images/agency/brand_22b.jpg') no-repeat center center;
+    }
+
+    #seventh-section a.brand1:hover{
+        background: url('../images/agency/brand-color_01b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand2:hover{
+        background: url('../images/agency/brand-color_02c.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand3:hover{
+        background: url('../images/agency/brand-color_03b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand4:hover{
+        background: url('../images/agency/brand-color_04b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand5:hover{
+        background: url('../images/agency/brand-color_05b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand6:hover{
+        background: url('../images/agency/brand-color_06b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand7:hover{
+        background: url('../images/agency/brand-color_07.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand8:hover{
+        background: url('../images/agency/brand-color_08b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand9:hover{
+        background: url('../images/agency/brand-color_09b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand10:hover{
+        background: url('../images/agency/brand-color_10b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand11:hover{
+        background: url('../images/agency/brand-color_11b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand12:hover{
+        background: url('../images/agency/brand-color_12.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand13:hover{
+        background: url('../images/agency/brand-color_13.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand14:hover{
+        background: url('../images/agency/brand-color_14.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand15:hover{
+        background: url('../images/agency/brand-color_15.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand16:hover{
+        background: url('../images/agency/brand-color_16.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand17:hover{
+        background: url('../images/agency/brand-color_17b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand18:hover{
+        background: url('../images/agency/brand-color_18b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand19:hover{
+        background: url('../images/agency/brand-color_19b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand20:hover{
+        background: url('../images/agency/brand-color_20b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand21:hover{
+        background: url('../images/agency/brand-color_21b.jpg') no-repeat center center;
+    }
+    #seventh-section a.brand22:hover{
+        background: url('../images/agency/brand-color_22b.jpg') no-repeat center center;
+    }
+
+    #seventh-section #traffic-partners h2 {
+        margin-top: 81px;
+        margin-left: 82px;
+    }
+
+    #seventh-section #partners {
+        margin-top: 9px;
+        margin-left: 86px;
+        text-align: center;
+    }
+
+    #seventh-section #trading-desk h2 {
+        margin-top: 291px;
+        margin-left: 82px;
+    }
+
+    #seventh-section #trading-desk #dsp {
+        margin-top: 18px;
+        margin-left: 104px;
+        text-align: center;
+    }
+    #seventh-section #trading-desk #dsp {
+        margin-top: 18px;
+        margin-left: 104px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+/*@media only screen and (max-width : 768px) and (min-width:240px) {*/
+@media only screen and (max-width : 992px) and (min-width:240px) {
+
+
+    #first-section #quote {
+        text-align: center;
+    }
+
+    #first-section #main-quote {
+        font-size: 41.96px;
+    }
+
+    #first-section #quote p {
+        font-size: 15.4px;
+    }
+
+    #contact p.first {
+        font-size: 22.56px;
+    }
+
+    #second-section #main-text {
+        margin-bottom: 50px;
+    }
+
+    #second-section .row {
+        margin-bottom: 10%;
+    }
+
+    #third-section .main img {
+        margin-bottom: 30px;
+    }
+
+    #fourth-section h1, #eighth-section h1 {
+        font-size: 23px;
+    }
+
+    #fourth-section, #eighth-section {
+        background: url(../images/banner.png) no-repeat center;
+    }
+
+    #fourth-section button, #eighth-section button {
+        font-size: 15.55px;
+        margin-bottom: 11px;
+    }
+
+    #fifth-section img {
+        margin-top: 20px;
+    }
+
+    #fifth-section .images div.button {
+        margin-bottom: 50px;
+    }
+
+    #sixth-section .carousel-text {
+         margin-bottom: 22px; 
+    }
+
+    #sixth-section .carousel-inner .item {
+        max-width: 284px;
+    }
+
+    #sixth-section .carousel-control {
+        /*top: 118px;*/
+        top: 162px;
+        width: 10%;
+        margin-left: -16px;
+    }
+
+    #seventh-section img {
+        width: 150px;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+    #sixth-section a.right.carousel-control {
+        margin-right: 4px;
+    }
+
+    .carousel {
+        margin-left: 17px;
+    }
+
+    #sixth-section .main-quote {
+         margin-left: 0; 
+    }
+
+    #fifth-section .images .highlight {
+        font-size: 19px;
+    }
+
+    #fifth-section .images div.button {
+        height: 70px;
+    }
+
+}
+
+/* Custom, iPhone Retina Smallest */ 
+@media only screen and (max-width : 320px) {
+    #sixth-section .carousel-control {
+        /* top: 118px; */
+        top: 162px;
+        width: 3%;
+        margin-left: -25px;
+    }
+
+    .carousel-text {
+        outline: 0;
+    }
+}
+
+/*MD ONLY*/
+@media (max-width: 1200px) and (min-width: 991px) {
+
+    #first-section #quote, #first-section #contact center {
+        text-align: left;
+    }
+
+    #first-section #quote {
+        margin-top: 26px;
+        margin-left: 28.7%;
+        margin-right: 25px;
+        width: 37.333333%;
+    }
+
+    #contact {
+        margin-top: -22px;
+        width: 31%;
+    }
+
+    #first-section {
+        background: url(../images/section1-md-bg.png) no-repeat;
+    }
+
+    #second-section {
+        margin-top: -23px;
+    }
+
+    #second-section .img4 {
+        max-width: 450px;
+        margin-top: 39px;
+    }
+
+    #third-section {
+        height: auto;
+        max-height: 100%;
+    }
+
+    #fourth-section button, #eighth-section button {
+        margin-top: 0px;
+    }
+
+    #fourth-section h1, #eighth-section h1 {
+        font-size: 25.54px;
+    }
+
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 300px;
+    }
+
+    #sixth-section .carousel-control {
+        width: 13%;
+    }
+
+    #seventh-section .use {
+        width: 80%;
+    }
+
+    #seventh-section .use.small {
+        width: 80%;
+    }
+
+    #footer-ul2 {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+    #fifth-section .images .img1 {
+        margin-left: 74px;
+    }
+
+    #fifth-section .images .img2 {
+        margin-left: 72px;
+    }
+
+    #fifth-section .images .img3 {
+        margin-left: 46px;
+    }
+}
+
+@media (min-width: 1422px) {
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 620px;
+    }
+}

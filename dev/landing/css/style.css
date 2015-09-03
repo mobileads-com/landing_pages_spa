@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "MuseoSans100";
+    src: url("../fonts/MuseoSans-100_0.otf");
+}
+@font-face {
+    font-family: "MuseoSans100Italic";
+    src: url("../fonts/MuseoSans-100Italic.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "MuseoSans300";
+    src: url("../fonts/MuseoSans-300_0.otf");
+}
+@font-face {
+    font-family: "MuseoSans300Italic";
+    src: url("../fonts/MuseoSans-300Italic.otf");
+}
+
+@font-face {
+    font-family: "MuseoSans700Italic";
+    src: url("../fonts/MuseoSans-700Italic.otf");
+}
+@font-face {
+    font-family: "MuseoSans900Italic";
+    src: url("../fonts/MuseoSans-900Italic.otf");
+}
+
+@font-face {
+    font-family: "MuseoSans2";
+    src: url("../fonts/MuseoSans_2.otf");
+}
+
+@font-face {
+    font-family: "MuseoSans700";
+    src: url("../fonts/MuseoSans_3.otf");
+
+}
+@font-face {
+    font-family: "MuseoSans900";
+    src: url("../fonts/MuseoSans_4.otf");
+}
+@font-face {
+    font-family: "MuseoSans500Italic";
+    src: url("../fonts/MuseoSans_500_Italic.otf");
+}
+
+html, body {
+    font-family: MuseoSans100;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.section-title {
+    font-size: 36.46px;
+    font-family: MuseoSans700;
+    color: #e44c3b;
+}
+
+#first-section {
+    background-color: #f5f3da !important;
+    margin-top: -12px;
+}
+
+.text-red {
+    color: #e44c3b;
+}
+
+#first-section #quote {
+    font-family: MuseoSans900;
+}
+
+#first-section #main-quote {
+    font-weight: bold;
+    font-size: 56.06px;
+}
+
+#first-section #quote p {
+    font-family: MuseoSans100;
+    font-size: 20.57px;
+}
+
+#first-section [type="checkbox"] {
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+#contact p.first {
+    font-family: MuseoSans700;
+    font-size: 24px;
+}
+
+#contact p.second {
+    font-size: 12.21px;
+    font-family: MuseoSans100;
+}
+
+#contact .panel h3 {
+    font-size: 24px;
+    font-family: MuseoSans700;
+}
+
+#contact .panel {
+    font-size: 14px;
+    background-color: #fefdec;
+}
+
+
+#contact .panel #free {
+    font-size: 12.42px;
+}
+
+.btn-custom {
+    font-size: 17.19px;
+    font-family: MuseoSans700;
+    color: white;
+    background-color: #e44c3b;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0.00px rgba(2, 2, 2, 0.71);
+}
+
+.btn-custom:hover {
+    background-color: #bf3a2b;
+    color: white;
+}
+
+
+#contact .panel button {
+    width: 100%;
+}
+
+#contact input {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+}
+
+#second-section {
+    background-color: #d3eed7;
+}
+
+#second-section #main-text .first {
+    font-size: 24px;
+}
+
+#second-section .row {
+    font-family: MuseoSans300;
+}
+
+#second-section .row p {
+    font-size: 22.48px;
+    font-family: MuseoSans100;
+}
+
+#second-section .row h2 {
+    font-size: 32px;
+}
+
+#third-section {
+    background-color: white;
+}
+
+#fourth-section, #eighth-section {
+    background: url(../images/section4-bg.png) no-repeat;
+    background-color: #181818;
+}
+
+#fourth-section h1, #eighth-section h1 {
+    font-size: 29.54px;
+    font-family: MuseoSans700;
+}
+
+#fourth-section button, #eighth-section button {
+    font-size: 18.55px;
+}
+
+#fifth-section {
+    background: url(../images/section5-bg.png);
+    margin-top: -2px;
+}
+
+#fifth-section .images .highlight {
+    font-size: 24px;
+    font-family: MuseoSans700;
+    color: #e44c3b;
+}
+
+#fifth-section .images .plain {
+    font-family: MuseoSans100;
+    font-size: 18.92px;
+    color: #717472;
+}
+
+#fifth-section .images div.button {
+    border-color: #e44c3b;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    height: 80px;
+    margin-top: 47px;
+    width: 67.5%;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+#fifth-section .images div.button:hover{
+    cursor: pointer;
+    background-color: #e44c3b;
+}
+
+#fifth-section .images div.button a{
+    text-decoration: none;
+}
+
+#fifth-section .images div.button:hover a span{
+    color: #ffffff;
+}
+
+#fifth-section .images div.button a span:hover {
+    color: #ffffff;
+}
+
+#fifth-section .lower-quote h2 {
+    font-size: 27.58px;
+    font-family: MuseoSans700;
+}
+
+#fifth-section .lower-quote .first {
+    font-family: MuseoSans100;
+    font-size: 21.74px;
+}
+
+#sixth-section { 
+    background-color: #f0efd6;
+}
+
+#sixth-section .main-quote {
+    margin-top: 55px;
+    margin-left: 41px;
+}
+
+/*TO be added on media query*/
+
+#sixth-section .carousel-inner {
+    margin-top: 40px;
+}
+
+.carousel-control.left,.carousel-control.right {
+    background-color: none;
+    background-image: none;
+}
+
+.carousel-text {
+    font-family: MuseoSans100;
+    font-size: 15.5px;
+    max-width: 750px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #696969;
+    padding-bottom: 85px;
+    margin-right: 17px;
+    outline: 1px solid #ffffff;
+    outline-offset: 5px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    padding-top: 36px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.carousel-text img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#sixth-section .carousel-control {
+    top: 70px;
+    color: #c1c09c;
+    width: 22%;
+}
+
+#sixth-section .outer-line {
+    border: 1px #ffffff;
+}
+
+#seventh-section {
+    background-color: #ffffff;
+}
+
+#seventh-section .main-quote .first {
+    font-family: MuseoSans300;
+    font-size: 24px;
+}
+
+#seventh-section #traffic-partners h2 {
+    font-size: 32px;
+}
+
+#seventh-section #trading-desk h2 {
+    font-size: 32px;
+}
+
+#terms .row, #privacy .row {
+    background-color: #f5f3da;
+    margin-top: -13px;
+}
