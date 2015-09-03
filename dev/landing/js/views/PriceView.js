@@ -58,26 +58,32 @@ app.views.PriceView = (function () {
                     $('#name').focus();	
                 })
 
-                $(_this.form).validate({
-                    rules:{
-                        name: { required : true, minLength: 1},
-                        email: { required : true, email : true},
-                        password: { required : true, minLength: 5}
-                    },
-                    messages:{
-                        name: { required : "Please enter your name." },
-                        email: { required : "Please enter your email." },
-                        password: { required : "Please provide a password." }
-                    },
-                    submitHandler: function(){
-                        $.post('/register.htm', { 'agency' : true, 'name' : $('[name=name]').val(), 'email' : $('[name=email]').val(), 'industry' : '',  'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3}, function(data, textStatus, xhr) {
-                     		/*optional stuff to do after success */
-                        });
-                    },
-                    invalidHandler: function(event, validator) {
-
-                    }
+                $(_this.form).on('submit', function(){
+                    $.post('/register.htm', { 'agency' : true, 'name' : $('[name=name]').val(), 'email' : $('[name=email]').val(), 'industry' : '',  'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3}, function(data, textStatus, xhr) {
+                  /*optional stuff to do after success */
+                    });
                 });
+
+                // $(_this.form).validate({
+                //     rules:{
+                //         name: { required : true, minLength: 1},
+                //         email: { required : true, email : true},
+                //         password: { required : true, minLength: 5}
+                //     },
+                //     messages:{
+                //         name: { required : "Please enter your name." },
+                //         email: { required : "Please enter your email." },
+                //         password: { required : "Please provide a password." }
+                //     },
+                //     submitHandler: function(){
+                //         $.post('/register.htm', { 'agency' : true, 'name' : $('[name=name]').val(), 'email' : $('[name=email]').val(), 'industry' : '',  'password':$('[name=password]').val(), 'platform':'ma', 'role':'agency', 'timezone':'UTC', 'subscriptionId':3}, function(data, textStatus, xhr) {
+                //      		/*optional stuff to do after success */
+                //         });
+                //     },
+                //     invalidHandler: function(event, validator) {
+
+                //     }
+                // });
             }
 
             var signup = new signupForm();
