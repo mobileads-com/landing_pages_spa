@@ -494,12 +494,12 @@
 	/*background-color: #78c19f;*/
 }
 
-.table > tbody > tr:nth-child(4) > td:not(:first-child), .table > tbody > tr:nth-child(8) > td:not(:first-child), .table > tbody > tr:nth-child(15) > td:not(:first-child){
+.table > tbody > tr:nth-child(5) > td:not(:first-child), .table > tbody > tr:nth-child(9) > td:not(:first-child), .table > tbody > tr:nth-child(16) > td:not(:first-child){
 	background-color: #bee4c5;
 	border: 0px;
 }
 
-.table > tbody > tr:nth-child(2) > td:not(:first-child), .table > tbody > tr:nth-child(7) > td:not(:first-child), .table > tbody > tr:nth-child(14) > td:not(:first-child){
+.table > tbody > tr:nth-child(2) > td:not(:first-child), .table > tbody > tr:nth-child(4) > td:not(:first-child), .table > tbody > tr:nth-child(8) > td:not(:first-child), .table > tbody > tr:nth-child(15) > td:not(:first-child){
 	border-bottom: 0px;
 }
 
@@ -521,6 +521,11 @@
 
 .row-figures{
 	height: 205px;
+}
+
+.row-usage span{
+	font-family: MuseoSans300;
+	font-weight: bold;
 }
 
 .row-impressions{
