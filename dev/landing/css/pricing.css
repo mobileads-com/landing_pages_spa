@@ -197,8 +197,10 @@
 	}
 	.table > thead > tr > th h2 {
 		font-family: AvenirLTStd-Black;
-		font-size: 22.77px;
-		color: #562020;
+		font-size: 32.77px;
+    		color: #FFFFFF;
+	/*	font-size: 22.77px;
+		color: #562020;*/
 	}
 	#fifth-section	{
 		/*height: 206px;
@@ -261,7 +263,8 @@
 	}
 
 	table > thead > tr > th h2{
-		font-size: 22.77px;
+		/*font-size: 22.77px;*/
+		font-size: 32.77px;
 		color: #000000;
 	}
 
