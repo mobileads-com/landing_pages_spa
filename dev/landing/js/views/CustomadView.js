@@ -4,7 +4,7 @@ app.views.CustomadView = (function () {
 
     return function (data) {
 
-        var customadTemplate = app.templates.get("Customad");
+        var customadTemplate = app.templates.get("customad");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.

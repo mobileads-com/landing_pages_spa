@@ -4,7 +4,7 @@ app.views.SaasView = (function () {
 
     return function (data) {
 
-        var saasTemplate = app.templates.get("Saas");
+        var saasTemplate = app.templates.get("saas");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.

@@ -68,7 +68,7 @@ var app = (function() {
 
 	$(document).ready(
 			function() {
-				app.templates.load("Home","Price","Customad","Gallery","Saas","Terms","Privacy").done(function() {
+				app.templates.load("home","price","customad","gallery","saas","terms","privacy").done(function() {
 					route();
 					$(window).on('hashchange', route);
 				});

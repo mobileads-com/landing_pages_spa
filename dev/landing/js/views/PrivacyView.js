@@ -4,7 +4,7 @@ app.views.PrivacyView = (function () {
 
     return function (data) {
 
-        var privacyTemplate = app.templates.get("Privacy");
+        var privacyTemplate = app.templates.get("privacy");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.
