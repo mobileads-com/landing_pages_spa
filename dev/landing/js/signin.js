@@ -1,49 +1,38 @@
 $(function() {
 
-    // var formMsg = $('#contact .form-msg');
-    // formMsg.hide();
-    // $('#contact .fa-spinner').hide();
+    $('#signin-form').submit(function(event) {
+        event.preventDefault();
 
-    $('#signin-form').validate({
-        rules : {
-            name : {
-                required : true
-            },
-            password : {
-                required : true
-            }
-        },
+        var formMsg = $('#signin-modal .form-msg');
+        
+        $.ajax({
+            url: '/login.htm',
+            type: 'post',
+            dataType: 'json',
+            data : {'agency':true, 'email':$('[name=email]').val(), 'password':$('[name=password]').val()},
+        }).success(function(jsonObject) {
+            console.log(jsonObject);
+            console.log('done');
 
-        submitHandler : function () {
-            
-            var formMsg = $('#signin-form .form-msg');
-            
-            $.post('/login.htm', 
-                   {'email':$('[name=email]').val(), 'password':$('[name=password]').val()}, function () {
-            }).done(function (jsonObject) {
-                jsonObject = JSON.parse(jsonObject);
-                console.log(jsonObject.status);
-                
-                if (jsonObject.status) {
-                    formMsg.addClass('text-success').text('You have successfully logged in!');
-                    formMsg.show();
-                    
-                    setTimeout( function () {
-                        window.location = '/campaigns'
-                    }, 3000);
-                }
-                
-                
-
-            }).fail(function (jsonObject) {
-                console.log(jsonObject);
-                console.log('Request failed');
-                formMsg.addClass('text-red').text('Something went wrong! Please try again later.');
+            if (jsonObject.status === true) {
+                formMsg.removeClass('text-red');
+                formMsg.addClass('text-success').text(jsonObject.message);
                 formMsg.show();
-            });
-        }, 
-        invalidHandler : function () {
 
-        }
+                setTimeout( function () {
+                    window.location = '/campaigns';
+                }, 3000);
+
+            } else {
+                formMsg.removeClass('text-success');
+                formMsg.addClass('text-red').text('Incorrect username or password.');
+                formMsg.show();
+            }
+
+        }).fail(function(jqXHR, textStatus) {
+            console.log('Request failed', textStatus);
+            formMsg.addClass('text-red').text('Something went wrong! Please try again later.');
+            formMsg.show();
+        });
     });
 });

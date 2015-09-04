@@ -4,7 +4,7 @@ app.views.GalleryView = (function () {
 
     return function (data) {
 
-        var galleryTemplate = app.templates.get("Gallery");
+        var galleryTemplate = app.templates.get("gallery");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.

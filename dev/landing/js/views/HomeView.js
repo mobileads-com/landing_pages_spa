@@ -4,7 +4,7 @@ app.views.HomeView = (function () {
 
     return function (data) {
 
-        var homeTemplate = app.templates.get("Home");
+        var homeTemplate = app.templates.get("home");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.
@@ -28,15 +28,19 @@ app.views.HomeView = (function () {
                     console.log(jsonObject);
                     console.log('done');
 
-
-                    $('#contact .panel').height('390px');
-                    formMsg.addClass('text-success').text('You have successfully signed up!');
-                    formMsg.show();
-                    // REDIRECT TO THE DASHBOARD HERE
+                    if (jsonObject.status === true) {
+                        formMsg.removeClass('text-red');
+                        formMsg.addClass('text-success').text(jsonObject.message);
+                        formMsg.show();
+                        // REDIRECT TO THE DASHBOARD HERE 
+                    } else {
+                        formMsg.removeClass('text-success');
+                        formMsg.addClass('text-red').text(jsonObject.message);
+                        formMsg.show();
+                    }
 
                 }).fail(function(jqXHR, textStatus) {
                     console.log('Request failed', textStatus);
-                    // $('#contact .panel').height('390px');
                     formMsg.addClass('text-red').text('Something went wrong! Please try again later.');
                     formMsg.show();
                 });

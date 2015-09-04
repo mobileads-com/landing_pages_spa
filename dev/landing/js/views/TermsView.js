@@ -4,7 +4,7 @@ app.views.TermsView = (function () {
 
     return function (data) {
 
-        var termsTemplate = app.templates.get("Terms");
+        var termsTemplate = app.templates.get("terms");
 
         this.initialize = function () {
             // Define a div wrapper for the view. The div wrapper is used to attach events.
